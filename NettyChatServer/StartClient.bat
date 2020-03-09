@@ -1,0 +1,1 @@
+mvn exec:java -D"exec.mainClass"="client.ChatClient" -Dexec.args="%1 %2"
