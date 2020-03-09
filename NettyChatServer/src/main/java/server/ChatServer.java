@@ -1,6 +1,11 @@
+/*
+  @author Tom Milman
+ * Distributed Systems Spring 2020
+ * Netty presentation
+ */
+
 package server;
 
-import client.ChatClient;
 import io.netty.channel.ChannelFuture;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelOption;

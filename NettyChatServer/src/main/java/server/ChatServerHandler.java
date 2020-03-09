@@ -1,3 +1,9 @@
+/*
+  @author Tom Milman
+ * Distributed Systems Spring 2020
+ * Netty presentation
+ */
+
 package server;
 
 import io.netty.buffer.ByteBuf;

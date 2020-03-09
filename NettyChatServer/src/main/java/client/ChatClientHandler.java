@@ -1,7 +1,12 @@
+/*
+  @author Tom Milman
+ * Distributed Systems Spring 2020
+ * Netty presentation
+ */
+
 package client;
 
 import io.netty.buffer.ByteBuf;
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
