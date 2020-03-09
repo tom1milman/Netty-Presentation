@@ -8,30 +8,46 @@ mvn clean
 mvn install
 ```
 ### Starting Server
-choose the port you want the server to run on
+`<port>` the port you want the server to run on. 
 
-**Windows:**
+<details>
+ <summary>Windows:</summary>
+ 
 ```
 StartServer.bat <port>
 ```
 
-**Linux:**
+</details>
+
+<details>
+ <summary>Linux:</summary>
+ 
 ```
 StartServer <port>
 ```
 
+</details>
+
 ### Starting Client
+`<server ip>` *optional* - server IP. by default it's `localhost`.
 
+`<port>` - Server port.
 
-**Windows:**
+<details>
+<summary>Windows:</summary>
+ 
 ```
 StartClient.bat <server ip> <port>
 ```
 
-**Linux:**
+</details>
+
+<details>
+<summary>Linux:</summary>
+ 
 ```
 StartClient <server ip> <port>
 ``` 
- 
 
+ </details>
 
