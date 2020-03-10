@@ -31,7 +31,7 @@ public class ChatServer {
     }
 
     public void run() {
-        System.out.printf("Starting Chat server at port: %d \r\n", port);
+        System.out.printf("-- Starting Chat server at port %d -- \r\n", port);
 
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();

@@ -1,2 +1,1 @@
-set /p port="Server port: "
-mvn exec:java -D"exec.mainClass"="server.ChatServer" -Dexec.args=%port%
+mvn exec:java -D"exec.mainClass"="server.ChatServer" -Dexec.args=%1
